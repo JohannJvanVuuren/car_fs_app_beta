@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="24ef3893-fb9a-4318-af80-db6a976a067d" name="Changes" comment="Merge remote-tracking branch 'origin/master'" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NRnpxsZV7RnyEtjQfBueU5jp8b" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Johan/WebstormProjects/car_fs_app/car_api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Johan\WebstormProjects\car_fs_app\car_api\database-images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Johan\WebstormProjects\car_fs_app\car_api\README-images" />
+      <recent name="C:\Users\Johan\WebstormProjects\car_fs_app\car_api" />
+      <recent name="C:\Users\Johan\WebstormProjects\car_fs_app\car_api\public\images" />
+      <recent name="C:\Users\Johan\WebstormProjects\car_fs_app\car_api\public" />
+      <recent name="C:\Users\Johan\WebstormProjects\car_fs_app\car_api\database-images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24ef3893-fb9a-4318-af80-db6a976a067d" name="Changes" comment="" />
+      <created>1679635950845</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679635950845</updated>
+      <workItem from="1679635951451" duration="13328000" />
+      <workItem from="1679719175173" duration="12528000" />
+      <workItem from="1679732157588" duration="9776000" />
+      <workItem from="1679801743896" duration="24925000" />
+      <workItem from="1679888384102" duration="9017000" />
+      <workItem from="1679901044569" duration="36866000" />
+      <workItem from="1680009797700" duration="308000" />
+      <workItem from="1680010438805" duration="336000" />
+      <workItem from="1680018394059" duration="377000" />
+      <workItem from="1680064560784" duration="17048000" />
+      <workItem from="1680149978676" duration="21526000" />
+      <workItem from="1680178359570" duration="900000" />
+      <workItem from="1680234003511" duration="20543000" />
+      <workItem from="1680269482518" duration="53000" />
+      <workItem from="1680269628061" duration="455000" />
+      <workItem from="1680270274544" duration="802000" />
+      <workItem from="1680276156960" duration="1000" />
+      <workItem from="1680327089543" duration="1134000" />
+    </task>
+    <task id="LOCAL-00001" summary="Update code base">
+      <created>1680071529695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680071529695</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Complete code for modify cars component.">
+      <created>1680155170593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680155170593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Complete styling for modify car component.">
+      <created>1680158829054</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680158829054</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Complete coding of delete car component.">
+      <created>1680162651496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680162651496</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Complete code documentation excluding styling docs">
+      <created>1680248759024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680248759024</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Complete styling comments before final testing">
+      <created>1680252773186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680252773186</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Submit final README documentation">
+      <created>1680269519638</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680269519638</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Submit final README documentation">
+      <created>1680269671043</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680269671043</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1680269980240</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680269980240</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1680270456048</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680270456048</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1680270623193</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680270623193</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update code base" />
+    <MESSAGE value="Complete code for modify cars component." />
+    <MESSAGE value="Complete styling for modify car component." />
+    <MESSAGE value="Complete coding of delete car component." />
+    <MESSAGE value="Complete code documentation excluding styling docs" />
+    <MESSAGE value="Complete styling comments before final testing" />
+    <MESSAGE value="Submit final README documentation" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+  </component>
+</project>
