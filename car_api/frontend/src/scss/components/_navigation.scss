@@ -1,0 +1,26 @@
+/* Import to enable the use of variables */
+@import '../abstract/variables';
+
+/* Styling of the navigation banner than appears on all pages */
+.navbar {
+
+  /* Logo */
+  .navbar-logo {
+    border-radius: 46%;
+    box-shadow: 1rem 1rem 3rem $dark-shadow,
+    -1rem -1rem 3rem $light-burgundy;
+    height:15rem;
+    width: auto;
+  }
+
+  /* Link buttons */
+  .navbar-link {
+    background-color: $dark-blue;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 3rem $dark-shadow,
+  -1rem -1rem 3rem $light-burgundy;
+    margin: 1rem;
+    padding: 2rem 3rem 2rem 3rem;
+  }
+}

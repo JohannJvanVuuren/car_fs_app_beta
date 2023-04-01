@@ -1,0 +1,21 @@
+/* Import of Lato font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap');
+
+/* Import of the various SCSS files into the main scss file from which the preprocessor generates the main.css file */
+@import 'abstract/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'components/add-car';
+@import 'components/cards';
+@import 'components/modify-car';
+@import 'components/navigation';
+
+@import 'layout/add-car';
+@import 'layout/app';
+@import 'layout/cards';
+@import 'layout/delete-car';
+@import 'layout/landing-page';
+@import 'layout/modify-car';
+@import 'layout/navigation';

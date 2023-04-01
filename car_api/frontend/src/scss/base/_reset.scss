@@ -1,0 +1,29 @@
+/* Import to enable use of variables */
+@import '../abstract/variables';
+
+/* Global resets */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Changing font size to 1 rem = 10px for ease of use */
+html {
+  font-size: 62.5%;
+}
+
+/* General styling of the global body element and overall schema of the site */
+body {
+  background: linear-gradient(to bottom right, $dark-burgundy, $off-dark-burgundy, $middle-burgundy,
+          $off-light-burgundy, $light-burgundy) fixed;
+  color: $misty-blue;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}

@@ -1,0 +1,31 @@
+/* Layout of the add cars page and form */
+.add-cars-form-container {
+
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+
+  /* Layout of the form */
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    .form-input {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+
+      input {
+        width: 50rem;
+      }
+    }
+
+    button {
+      margin-top: 3rem;
+      width: 10rem;
+    }
+  }
+}

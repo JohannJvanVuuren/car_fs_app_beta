@@ -1,0 +1,12 @@
+/* Layout of the CarCards component */
+.card-container {
+  max-height: 100vh;
+}
+
+.card-wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}

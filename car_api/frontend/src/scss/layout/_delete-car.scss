@@ -1,0 +1,21 @@
+/* Layout of the delete cars page */
+.delete-car-form-wrapper {
+
+  /* General layout */
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  max-height: 100vh;
+
+  .car-card-wrapper {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    height: 5.5rem;
+    justify-content: center;
+  }
+}
+

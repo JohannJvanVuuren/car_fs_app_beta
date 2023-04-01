@@ -1,0 +1,19 @@
+/* General layout of the navigation section that appears on all renders */
+.navbar {
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+
+  /* Logo */
+  .navbar-logo {
+    margin-left: 6rem;
+  }
+
+  /* Main list that contains the links */
+  .navbar-list {
+    margin-right: 6rem;
+  }
+}

@@ -1,0 +1,362 @@
+/* Import of Lato font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap");
+/* Import of the various SCSS files into the main scss file from which the preprocessor generates the main.css file */
+/* Colouring of body background */
+/* Colour of Car Cards */
+/* Shadows */
+/* Import to enable use of variables */ /* Colouring of body background */
+/* Colour of Car Cards */
+/* Shadows */
+/* Global resets */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Changing font size to 1 rem = 10px for ease of use */
+html {
+  font-size: 62.5%;
+}
+
+/* General styling of the global body element and overall schema of the site */
+body {
+  background: linear-gradient(to bottom right, #0d0003, #1a0006, #26000a, #33000d, #400010) fixed;
+  color: #C3CEDA;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Import to enable the use of variables */ /* Colouring of body background */
+/* Colour of Car Cards */
+/* Shadows */
+/* Typography of the navigation section that appears on all pages */
+.navbar {
+  /* Link buttons */
+  /* Single heading element */
+}
+.navbar .navbar-link {
+  color: #C3CEDA;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar h1 {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-right: 3rem;
+  text-transform: uppercase;
+  word-spacing: 1rem;
+}
+
+/* Typography of the landing page which is the first page the user sees when they navigate to the site */
+.landing-page-wrapper h1 {
+  font-size: 9rem;
+  font-weight: 100;
+  text-align: center;
+  text-shadow: 2px 2px 4px;
+  text-transform: uppercase;
+}
+.landing-page-wrapper h2 {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.landing-page-wrapper p {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* Typography of the car cards that display the details of cars on "View Cars" */
+.card .card-header {
+  background-color: #C3CEDA;
+}
+.card .card-header h1 {
+  color: #071330;
+  height: 100%;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card .card-body {
+  background-color: #C3CEDA;
+  height: 4rem;
+}
+.card .card-body h2 {
+  color: #071330;
+  font-size: 2rem;
+  height: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+.card .card-body p {
+  color: #071330;
+  font-size: 1.6rem;
+  height: 100%;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+/* Typography of the add cars page */
+.add-cars-form-container h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+/* Typography of the modify cars page */
+.modify-cars-form-wrapper form {
+  /* The typography of the input field placeholder section */
+}
+.modify-cars-form-wrapper form h1 {
+  font-size: 5rem;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.modify-cars-form-wrapper form label {
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+.modify-cars-form-wrapper form .form-element ::placeholder {
+  background-color: #C3CEDA;
+  border-radius: 0.5rem;
+  color: #071330;
+  padding: 1rem;
+}
+.modify-cars-form-wrapper form button {
+  background-color: #071330;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.8), -1rem -1rem 3rem #400010;
+  color: #C3CEDA;
+  font-weight: 700;
+  padding: 1rem 2rem 1rem 2rem;
+  text-transform: uppercase;
+}
+
+/* Typography of the delete cars page */
+.delete-car-form-wrapper h1 {
+  font-size: 5rem;
+  margin: 2rem 0;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.delete-car-form-wrapper label {
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  text-transform: uppercase;
+}
+.delete-car-form-wrapper .car-card-wrapper .button-delete {
+  background-color: #071330;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.8), -1rem -1rem 3rem #400010;
+  color: #C3CEDA;
+  font-weight: 700;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+/* Import to make use of variables possible */ /* Colouring of body background */
+/* Colour of Car Cards */
+/* Shadows */
+/* Styling of the add cars component which is basically a form */
+.add-cars-form-container .form {
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.8), -1rem -1rem 3rem #400010;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+.add-cars-form-container .form input {
+  background-color: #C3CEDA;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  outline: none;
+  padding: 0.5rem;
+}
+.add-cars-form-container .form button {
+  background-color: #071330;
+  border-radius: 1rem;
+  color: #C3CEDA;
+  padding: 1rem;
+}
+
+/* Import to make variables available */ /* Colouring of body background */
+/* Colour of Car Cards */
+/* Shadows */
+/* Styling of the cards that display the car details on the view cars page */
+.card {
+  background-color: #C3CEDA;
+  border: 2px solid #071330;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.8), -1rem -1rem 3rem #400010;
+  height: 45rem;
+  margin: 1rem;
+  width: 30rem;
+  /* The images linked to */
+}
+.card .card-image {
+  background: linear-gradient(to bottom right, #071330, #0C4160, #738FA7, #C3CEDA);
+  border-top-right-radius: 1rem;
+  height: 20rem;
+  position: relative;
+  /* Positioning of the images */
+}
+.card .card-image img {
+  height: auto;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+/* Styling of the modify cars page which is basically a form */
+.modify-cars-form-wrapper .form-element input {
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.5rem;
+}
+
+/* Import to enable the use of variables */ /* Colouring of body background */
+/* Colour of Car Cards */
+/* Shadows */
+/* Styling of the navigation banner than appears on all pages */
+.navbar {
+  /* Logo */
+  /* Link buttons */
+}
+.navbar .navbar-logo {
+  border-radius: 46%;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.8), -1rem -1rem 3rem #400010;
+  height: 15rem;
+  width: auto;
+}
+.navbar .navbar-link {
+  background-color: #071330;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.8), -1rem -1rem 3rem #400010;
+  margin: 1rem;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+/* Layout of the add cars page and form */
+.add-cars-form-container {
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+  /* Layout of the form */
+}
+.add-cars-form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+.add-cars-form-container .form .form-input {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.add-cars-form-container .form .form-input input {
+  width: 50rem;
+}
+.add-cars-form-container .form button {
+  margin-top: 3rem;
+  width: 10rem;
+}
+
+/* Setting of a height to the App component. */
+.App {
+  height: 100vh;
+}
+
+/* Layout of the CarCards component */
+.card-container {
+  max-height: 100vh;
+}
+
+.card-wrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+/* Layout of the delete cars page */
+.delete-car-form-wrapper {
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+  max-height: 100vh;
+}
+.delete-car-form-wrapper .car-card-wrapper {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  height: 5.5rem;
+  justify-content: center;
+}
+
+/* Layout of the landing page that greets the user as they navigate to the page */
+.landing-page-wrapper {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Layout of the modify cars page */
+.modify-cars-form-wrapper {
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+  /* Setting a margin to the form */
+}
+.modify-cars-form-wrapper .form-element {
+  margin: 4rem;
+}
+
+/* General layout of the navigation section that appears on all renders */
+.navbar {
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  /* Logo */
+  /* Main list that contains the links */
+}
+.navbar .navbar-logo {
+  margin-left: 6rem;
+}
+.navbar .navbar-list {
+  margin-right: 6rem;
+}
+
+/*# sourceMappingURL=main.css.map */

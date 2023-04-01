@@ -1,0 +1,14 @@
+/* Layout of the modify cars page */
+.modify-cars-form-wrapper {
+  /* General layout */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+
+  /* Setting a margin to the form */
+  .form-element {
+    margin: 4rem;
+  }
+}
